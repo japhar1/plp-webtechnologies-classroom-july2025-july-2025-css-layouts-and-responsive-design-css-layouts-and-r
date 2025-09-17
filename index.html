@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout with Flexbox & Grid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">
+                    <span class="logo-icon">T</span>
+                    TechBlog
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Articles</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Exploring the Future of Technology</h1>
+            <p>Latest insights on web development, AI, cybersecurity, and emerging tech trends</p>
+            <a href="#" class="btn">Read Latest Articles</a>
+        </div>
+    </section>
+
+    <!-- Main Content Area -->
+    <div class="container">
+        <div class="main-content">
+            <!-- Articles Section -->
+            <section class="articles">
+                <article class="article-card">
+                    <div class="article-img"></div>
+                    <div class="article-content">
+                        <h2>Understanding CSS Grid Layout</h2>
+                        <div class="meta">
+                            <span>May 15, 2023</span> • 
+                            <span>John Doe</span>
+                        </div>
+                        <p>CSS Grid Layout is a powerful tool for creating complex responsive web design layouts more easily and consistently across browsers.</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </article>
+
+                <article class="article-card">
+                    <div class="article-img"></div>
+                    <div class="article-content">
+                        <h2>Flexbox for Responsive Designs</h2>
+                        <div class="meta">
+                            <span>April 28, 2023</span> • 
+                            <span>Jane Smith</span>
+                        </div>
+                        <p>The Flexible Box Layout Module makes it easier to design flexible responsive layout structure without using float or positioning.</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </article>
+
+                <article class="article-card">
+                    <div class="article-img"></div>
+                    <div class="article-content">
+                        <h2>Future of AI in Web Development</h2>
+                        <div class="meta">
+                            <span>April 10, 2023</span> • 
+                            <span>Mike Johnson</span>
+                        </div>
+                        <p>Artificial Intelligence is transforming how we build and interact with websites, from automated coding to personalized user experiences.</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </article>
+            </section>
+
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <div class="sidebar-widget">
+                    <h3>Categories</h3>
+                    <ul class="categories">
+                        <li><a href="#">Web Development <span class="count">12</span></a></li>
+                        <li><a href="#">Mobile Apps <span class="count">8</span></a></li>
+                        <li><a href="#">AI & Machine Learning <span class="count">15</span></a></li>
+                        <li><a href="#">Cybersecurity <span class="count">9</span></a></li>
+                        <li><a href="#">Cloud Computing <span class="count">7</span></a></li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-widget">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to our newsletter for the latest updates.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your Email Address">
+                        <button type="submit" class="btn">Subscribe</button>
+                    </form>
+                </div>
+            </aside>
+        </div>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials">
+            <h2>What Our Readers Say</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial">
+                    <p class="quote">"This blog has been an incredible resource for staying up-to-date with the latest web technologies. The articles are well-researched and practical."</p>
+                    <div class="client">
+                        <div class="client-img"></div>
+                        <div class="client-info">
+                            <h4>Sarah Williams</h4>
+                            <p>Frontend Developer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial">
+                    <p class="quote">"The explanations of complex topics are clear and concise. I've improved my coding skills significantly thanks to the tutorials published here."</p>
+                    <div class="client">
+                        <div class="client-img"></div>
+                        <div class="client-info">
+                            <h4>David Chen</h4>
+                            <p>Full Stack Developer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial">
+                    <p class="quote">"As a tech lead, I often share articles from this blog with my team. The content is always relevant and helps us solve real-world problems."</p>
+                    <div class="client">
+                        <div class="client-img"></div>
+                        <div class="client-info">
+                            <h4>Emily Rodriguez</h4>
+                            <p>Tech Lead</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About TechBlog</h3>
+                    <p>We provide the latest news, tutorials, and insights about web development, programming, and technology trends.</p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Articles</a></li>
+                        <li><a href="#">Categories</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Connect With Us</h3>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon">F</a>
+                        <a href="#" class="social-icon">T</a>
+                        <a href="#" class="social-icon">I</a>
+                        <a href="#" class="social-icon">L</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>&copy; 2023 TechBlog. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile navigation toggle
+        document.getElementById('hamburger').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
